@@ -26,18 +26,6 @@ body {
 #sidebar-container .logo {
   padding: 0.875rem 1.25rem;
 }
-
-#sidebar-container .menu {
-  width: 18rem;
-}
-
-#sidebar-container > .menu > a{
-    text-decoration: none;
-  }
-
-main {
-  
-}
 /* FIN MAIN */
 
 /* FOOTER */
@@ -55,3 +43,15 @@ footer {
   height: 180px;
 }
 /* FIN FOOTER */
+
+/* MEDIA QUERIE */
+@media (max-width: 576px) {
+  #content-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #content-wrapper > main {
+    margin: 1rem 0;
+  }
+}
